@@ -1,0 +1,111 @@
+.titles{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 107px;
+}
+
+.rectangle-title{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.rectangle-text{
+    margin-left: 30px;
+    width: 370px;
+    margin-top: 55px;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.rectangle {
+    margin-top: 33px;
+    border-radius: 20px;
+    width: 417px;          
+    height: 200px;        
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    font-size: 20px;        
+    color: rgb(0, 0, 0);       
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rectangle-container {
+    margin-left: 440px;
+    align-items: center;
+    gap: 195px;
+    display: flex; /* Используем flexbox для распределения колонок */
+}
+
+.image {
+    margin-top: 33px;
+    border-radius: 20px;
+    width: 417px;          
+    height: 300px; 
+}
+
+.image img {
+    width: 100%;    /* Заполняет всю ширину блока */
+    height: 100%;   /* Заполняет всю высоту блока */
+    border-radius: 20px; /* Округленные углы */
+    object-fit: cover; /* Сохраняет пропорции, обрезая изображение если нужно */
+}
+
+.gyms-text{
+    margin-top: 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.gyms-button{
+    margin-top: 34px;
+    width: 241px;
+    height: 74px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.gyms-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-trainer {
+    border-radius: 50%;
+    width: 196px;          
+    height: 196px; 
+}
+
+.image-trainer img {
+    width: 100%;    /* Заполняет всю ширину блока */
+    height: 100%;   /* Заполняет всю высоту блока */
+    border-radius: 50%; /* Округленные углы */
+    object-fit: cover; /* Сохраняет пропорции, обрезая изображение если нужно */
+}
+
+.trainers-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.trainers-container{
+    margin-top: 33px;
+    margin-left: 450px;
+    display: flex;
+    gap: 225px;
+}
