@@ -21,7 +21,19 @@
 }
 
 .header-href{
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
     gap: 5px;
+
+}
+
+.header-href-text{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .header-container {
