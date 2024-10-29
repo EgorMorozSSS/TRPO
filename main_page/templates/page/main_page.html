@@ -1,0 +1,47 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'main_page/main_page.scss' %}">
+
+{% include 'components/header.html' %}
+
+<body>
+    <div class="titles">О нас</div>
+    <div class="rectangle-container">
+        <div class="rectangle"> 
+            <div class="rectangle-title">Возможности с нами</div>
+            <div class="rectangle-text">Подберите индивидуальную программу с профессиональным тренером, который поможет достичь ваших целей, будь то похудение, набор мышечной массы или улучшение выносливости.        </div>
+        </div>
+        <div class="rectangle"> 
+            <div class="rectangle-title">Возможности с нами</div>
+            <div class="rectangle-text">Подберите индивидуальную программу с профессиональным тренером, который поможет достичь ваших целей, будь то похудение, набор мышечной массы или улучшение выносливости.        </div>
+        </div>
+    </div>
+    <div class="titles">Наши залы</div>
+    <div class="rectangle-container">
+        <div class="gyms-container">
+            <div class="image">
+                <img src="{% static 'images/IMG_9824.png' %}" alt="Изображение 2">
+            </div>
+            <div class="gyms-text">Шабаны Селицкого 105</div>
+            <button class="gyms-button">Просмотреть тренеров</button>
+        </div>
+        <div class="gyms-container">
+            <div class="image">
+                <img src="{% static 'images/dsc_3.png' %}" alt="Изображение 3">
+            </div>
+            <div class="gyms-text">Малый тросцинец 62</div>
+            <button class="gyms-button">Просмотреть тренеров</button>
+        </div>
+    </div>
+    <div class="titles">Наши тренера</div>
+    <div class="trainers-container">
+        <div class="image-trainer">
+            <img src="{% static 'images/rem.jpg' %}" alt="Изображение 3">
+        </div>
+        <div class="image-trainer">
+            <img src="{% static 'images/trener.png' %}" alt="Изображение 3">
+        </div>
+        <div class="image-trainer">
+            <img src="{% static 'images/kulinichi.jpg' %}" alt="Изображение 3">
+        </div>
+    </div>
+</body>
