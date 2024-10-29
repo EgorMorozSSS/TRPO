@@ -13,4 +13,7 @@ from django.core.paginator import Paginator
 def main_page(request):
     return render(request, 'page/main_page.html')
 
+def login(request):
+    return render(request, 'page/login.html')
+
 # Create your views here.

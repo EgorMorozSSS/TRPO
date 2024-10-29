@@ -6,7 +6,9 @@
         <div class="images">
             <img src="{% static 'images/Frame 26.png' %}" alt="Изображение 1">
         </div>
-        <div class="header-text">О нас | Контакты | Адреса | Блог | Магазин | Регистрация | Авторизация</div>
+        <div class="">
+            <div class="header-text"><a class="link" href="{% url 'login' %}">Авторизация</a></div>
+        </div>
         <button class="button-header">PROFILE</button>
     </div>
 </body>
