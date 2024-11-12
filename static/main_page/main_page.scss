@@ -101,6 +101,14 @@
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 16px;
+    text-align: center;
+}
+
+.trainers-text{
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
 }
 
 .trainers-container{
@@ -108,4 +116,20 @@
     margin-left: 450px;
     display: flex;
     gap: 225px;
+}
+
+.title-review{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 380px;
+}
+
+.rectangle-review{
+    margin-left: 470px;
+    border-radius: 20px;
+    width: 942px;
+    height: 200px;
+    background-color: gray;
 }
