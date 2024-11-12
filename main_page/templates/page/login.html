@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'main_page/login.scss' %}">
+
+{% include 'components/header.html' %}
+
+<body>
+    <div class="titles">Авторизация</div>
+
+    <div class="inputs">
+        <div class="image">
+            <img src="{% static 'images/Frame 27.png' %}" alt="Изображение 2">
+        </div>
+        <input class="pull"></input>
+    </div>
+
+    <div class="inputs">
+        <div class="image">
+            <img src="{% static 'images/Lock.png' %}" alt="Изображение 2">
+        </div>
+        <input class="pull"></input>
+    </div>
+</body>
